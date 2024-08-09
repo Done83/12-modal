@@ -1,6 +1,14 @@
+import Home from "./Home";
+import Modal from "./Modal";
+import Sidebar from "./Sidebar";
+
 const App = () => {
   return (
-    <div>Sidebar Starter</div>
-  )
-}
-export default App
+    <main>
+      <Home />
+      <Modal />
+      <Sidebar />
+    </main>
+  );
+};
+export default App;

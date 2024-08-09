@@ -72,4 +72,3 @@ export const social = [
     icon: <FaSketch />,
   },
 ];
-`
